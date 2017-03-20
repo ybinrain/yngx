@@ -11,6 +11,7 @@
 
 #include <ngx_config.h>
 
+#include <ngx_buf.h>
 
 typedef struct ngx_module_s          ngx_module_t;
 

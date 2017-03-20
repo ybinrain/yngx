@@ -13,8 +13,9 @@
 ngx_module_t  ngx_core_module = {
 };
 
-int 
+int ngx_cdecl
 main(int argc, char *const *argv)
 {
+    printf("Ngx!\n");
     return 0;
 }
